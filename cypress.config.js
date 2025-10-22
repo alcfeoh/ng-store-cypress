@@ -11,5 +11,7 @@ module.exports = defineConfig({
     baseUrl: 'http://store.angulartraining.com',
     defaultCommandTimeout: 5000,
     specPattern: 'cypress/e2e/**/*.{js,jsx,ts,tsx}',
+    experimentalStudio: true,
+    experimentalPromptCommand: true
   },
 })
